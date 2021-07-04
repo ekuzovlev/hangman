@@ -40,7 +40,7 @@ class Game
 
   # Возвращает true, если у пользователя не осталось ошибок, т.е. игра проиграна
   def lost?
-    errors_allowed == 0
+    errors_allowed.zero?
   end
 
   def normalize_letter(letter)
