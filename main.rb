@@ -23,7 +23,6 @@ until game.over?
   console_interface.print_out
 
   letter = console_interface.get_input
-
   game.play!(letter)
 end
 
